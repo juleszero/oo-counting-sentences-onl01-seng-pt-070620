@@ -30,6 +30,6 @@ class String
   def count_sentences
     # sentence_number = [] 
     # sentence_number << 
-    self.split(/[!?.][^!{2}][^.{2}/).count
+    self.split(/[!?.][^!{2}][^.{2}]/).count
   end
 end
